@@ -1,0 +1,167 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 300px;
+    margin: 11px auto;
+    text-align: center;
+}
+.container .btn {
+    margin-bottom: 21px;
+}
+
+.btn {
+    width: 350px;
+    height: 46px;
+    border-radius: 17px;
+    font-size: 14px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-flex-align: center;
+    align-items: center;
+    
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+    z-index: -1;
+    transition: rotate .0s ease;
+}
+
+.btn:hover:after {
+    transform: rotate(180deg);
+}
+
+button.btn {
+    text-transform: uppercase;
+    border: none;
+}
+
+.ocean-blue:after {
+    background-image: linear-gradient(to right,#2E3192,#1BFFFF);
+    text-shadow: 0 0 2px #2E3192;
+}
+
+.sanguine:after {
+    background-image: linear-gradient(to right,#D4145A,#FBB03B);
+    text-shadow: 0 0 2px #D4145A;
+}
+.luscious-lime:after {
+    background-image: linear-gradient(to right,#009245,#FCEE21);
+    text-shadow: 0 0 2px #009245;
+}
+.purple-lake:after {
+    background-image: linear-gradient(to right,#662D8C,#ED1E79);
+    text-shadow: 0 0 2px #662D8C;
+}
+.piglet:after {
+    background-image: linear-gradient(to right,#EE9CA7,#FFDDE1);
+    text-shadow: 0 0 2px #EE9CA7;
+}
+.kashmir:after {
+    background-image: linear-gradient(to right,#614385,#516395);
+    text-shadow: 0 0 2px #614385;
+}
+.green-beach:after {
+    background-image: linear-gradient(to right,#02AABD,#00CDAC);
+    text-shadow: 0 0 2px #02AABD;
+}
+.bloody-mary:after {
+    background-image: linear-gradient(to right,#FF512F,#DD2476);
+    text-shadow: 0 0 2px #02AABD;
+}
+.sweet-morning:after {
+    background-image: linear-gradient(to right,#FF5F6D,#FFC371);
+    text-shadow: 0 0 2px #FF5F6D;
+}
+.quepal:after {
+    background-image: linear-gradient(to right,#11998E,#38EF7D);
+    text-shadow: 0 0 2px #11998E;
+}
+.cactus:after {
+    background-image: linear-gradient(to right,#C6EA8D,#FE90AF);
+    text-shadow: 0 0 2px #C6EA8D;
+}
+.yosemite:after {
+    background-image: linear-gradient(to right,#EA8D8D,#A890FE);
+    text-shadow: 0 0 2px #C6EA8D;
+}
+.antarctica:after {
+    background-image: linear-gradient(to right,#D8B5FF,#1EAE98);
+    text-shadow: 0 0 2px #D8B5FF;
+}
+.exotic:after {
+    background-image: linear-gradient(to right,#FF61D2,#FE9090);
+    text-shadow: 0 0 2px #FF61D2;
+}
+.toxic:after {
+    background-image: linear-gradient(to right,#BFF098,#6FD6FF);
+    text-shadow: 0 0 2px #BFF098;
+}
+.orbit:after {
+    background-image: linear-gradient(to right,#4E65FF,#92EFFD);
+    text-shadow: 0 0 2px #4E65FF;
+}
+.no-mans:after {
+    background-image: linear-gradient(to right,#A9F1DF,#FFBBBB);
+    text-shadow: 0 0 2px #A9F1DF;
+}
+.celestial:after {
+    background-image: linear-gradient(to right,#C33764,#1D2671);
+    text-shadow: 0 0 2px #C33764;
+}
+.clean-mirror:after {
+    background-image: linear-gradient(to right,#93A5CF,#E4EfE9);
+    text-shadow: 0 0 2px #93A5CF;
+}
+.mountain-rock:after {
+    background-image: linear-gradient(to right,#868F96,#596164);
+    text-shadow: 0 0 2px #868F96;
+}
+.eternal-constance:after {
+    background-image: linear-gradient(to right,#09203F,#537895);
+    text-shadow: 0 0 2px #09203F;
+}
+.juicy-peach:after {
+    background-image: linear-gradient(to right,#FFECD2,#FCB69F);
+    text-shadow: 0 0 2px #FFECD2;
+}
+.winter-neva:after {
+    background-image: linear-gradient(to right,#A1C4FD,#C2E9FB);
+    text-shadow: 0 0 2px #A1C4FD;
+}
+.plum-place:after {
+    background-image: linear-gradient(to right,#764BA2,#667EEA);
+    text-shadow: 0 0 2px #764BA2;
+}
+.everlasting-sky:after {
+    background-image: linear-gradient(to right,#FDFCFB,#E2D1C3);
+    text-shadow: 0 0 2px #FDFCFB;
+}
