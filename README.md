@@ -1,1 +1,1 @@
-<img src="https://github.com/Artur-am/Buttons/blob/master/img/buttons.png" />
+<img src="https://github.com/Artur-am/Buttons/blob/master/img/buttons.png" style="margin: 0px auto; display: block;" />
