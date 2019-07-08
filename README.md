@@ -1,1 +1,8 @@
-<img src="https://github.com/Artur-am/Buttons/blob/master/img/buttons.png" style="margin: 0px auto; display: block;" />
+<style>
+    .img {
+        margin: 0 auto;
+        display: block;
+    }
+</style>
+
+<img src="https://github.com/Artur-am/Buttons/blob/master/img/buttons.png" class="img" />
